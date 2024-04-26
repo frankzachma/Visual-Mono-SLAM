@@ -21,9 +21,13 @@ Visual Mono SLAM Project
 
 
 imageFolder   = fullfile('C:\Users\fzachma\Documents\Visual SLAM Project\Pictures');
+
 imds          = imageDatastore(imageFolder);
 
 % Inspect the first image
+
 currFrameIdx = 1;
+
 currI = readimage(imds, currFrameIdx);
+
 himage = imshow(currI);
