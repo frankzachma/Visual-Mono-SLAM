@@ -1,5 +1,10 @@
-# Visual-Mono-SLAM
-Visual Mono SLAM Project
+# Visual-Monocular-SLAM-Project
+Summary
+
+
+
+
+
 
 
 ![image](https://github.com/frankzachma/Visual-Mono-SLAM/assets/168232333/5bb5e1fc-f943-4e67-bc9b-2da9b39b1daf)
@@ -21,14 +26,9 @@ Visual Mono SLAM Project
 
 ````
 imageFolder   = fullfile('C:\Users\fzachma\Documents\Visual SLAM Project\Pictures');
-
 imds          = imageDatastore(imageFolder);
-
 % Inspect the first image
-
 currFrameIdx = 1;
-
 currI = readimage(imds, currFrameIdx);
-
 himage = imshow(currI);
 ````
