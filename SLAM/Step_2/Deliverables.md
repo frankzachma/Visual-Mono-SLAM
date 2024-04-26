@@ -1,6 +1,6 @@
 ## Monocular Visual Simultaneous Localization and Mapping by MATLAB Using Custom Dataset
 
-MATLAB has an example of Monocular Visual SLAM linked [here](https://www.mathworks.com/help/vision/ug/monocular-visual-simultaneous-localization-and-mapping.html). However, in order to achieve the same results as done by MATLAB, a few edits must be made to the code. Below shows the only added code. All of changes to MATLAB's example was done to the "Download and Explore the Input Image Sequence." The reason this is the only neccessary place to change anything is because the dataset file type is much different. The dataset I used was individual pictures in a folder on my computer. MATLAB had us download files and extract them based on the type of file that was downloaded. So, all of the first block of code in this section was commented out. The second block was changed to the code below. 
+MATLAB has an example of Monocular Visual SLAM linked [here](https://www.mathworks.com/help/vision/ug/monocular-visual-simultaneous-localization-and-mapping.html). However, to achieve the same results as done by MATLAB, a few edits must be made to the code. Below is the only added code. All of the changes to MATLAB's example were done to the "Download and Explore the Input Image Sequence." The reason this is the only necessary place to change anything is because the dataset file type is much different. The dataset I used was individual pictures in a folder on my computer. MATLAB had us download files and extract them based on the type of file that was downloaded. So, all of the first block of code in this section was commented out. The second block was changed to the code below. 
 ````
 imageFolder   = fullfile('C:\Users\fzachma\Documents\Visual SLAM Project\Pictures');
 imds          = imageDatastore(imageFolder);
@@ -12,7 +12,7 @@ himage = imshow(currI);
 ````
 
 
-Now that the only neccessary changes have been made, the results of each section of the MATLAB blocks code that are relavent are shown below.
+Now that the only necessary changes have been made, the results of each section of the MATLAB blocks code that are relevant are shown below.
 
 *Map Initialization Result*
 ![image](https://github.com/frankzachma/Visual-Mono-SLAM/assets/168232333/ff944739-1833-46e8-826b-c441c35cc3bb)
@@ -31,4 +31,4 @@ Now that the only neccessary changes have been made, the results of each section
 ![image](https://github.com/frankzachma/Visual-Mono-SLAM/assets/168232333/8f5db104-bac8-4f3c-b0ca-2501f95325d5)
 
 
-These results are the reconstructed scene from the images and predicted camera trajectory. The camera parameters were not aquired, so the ground truth trajectory was not part of the results.
+These results are the reconstructed scene from the images and predicted camera trajectory. The camera parameters were not acquired, so the ground truth trajectory was not part of the results.
