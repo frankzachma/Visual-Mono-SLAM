@@ -19,7 +19,7 @@ Visual Mono SLAM Project
 
 ![image](https://github.com/frankzachma/Visual-Mono-SLAM/assets/168232333/8f5db104-bac8-4f3c-b0ca-2501f95325d5)
 
-
+````
 imageFolder   = fullfile('C:\Users\fzachma\Documents\Visual SLAM Project\Pictures');
 
 imds          = imageDatastore(imageFolder);
@@ -31,3 +31,4 @@ currFrameIdx = 1;
 currI = readimage(imds, currFrameIdx);
 
 himage = imshow(currI);
+````
