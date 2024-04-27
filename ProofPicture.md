@@ -1,4 +1,4 @@
-##Proof Picture
+## Proof Picture
 This is a picture of me in the place I acquired the dataset.
 
 ![image](https://github.com/frankzachma/Visual-Mono-SLAM/assets/168232333/8ddbc258-f117-45a3-acee-d68375675798)
