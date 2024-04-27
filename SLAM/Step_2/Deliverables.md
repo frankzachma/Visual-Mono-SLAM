@@ -15,20 +15,29 @@ himage = imshow(currI);
 Now that the only necessary changes have been made, the results of each section of the MATLAB blocks code that are relevant are shown below.
 
 *Map Initialization Result*
+
 ![image](https://github.com/frankzachma/Visual-Mono-SLAM/assets/168232333/ff944739-1833-46e8-826b-c441c35cc3bb)
 
+
 *Refine and Visualize the Initial Reconstruction Result 1*
+
 ![image](https://github.com/frankzachma/Visual-Mono-SLAM/assets/168232333/4af6c376-86a3-4c6a-a0b5-262a07d4b3c0)
 
+
 *Refine and Visualize the Initial Reconstruction Result 2*
+
 ![image](https://github.com/frankzachma/Visual-Mono-SLAM/assets/168232333/04c6c05c-7fa3-44bc-bb72-6a80fa8b5ffd)
 
+
 *Loop Closure Result 1*
+
 ![image](https://github.com/frankzachma/Visual-Mono-SLAM/assets/168232333/e5e7b16e-9e6a-4028-9682-833c7923a310)
+
 
 *Loop Closure Result 2*
 
 ![image](https://github.com/frankzachma/Visual-Mono-SLAM/assets/168232333/8f5db104-bac8-4f3c-b0ca-2501f95325d5)
+
 
 
 These results are the reconstructed scene from the images and predicted camera trajectory. The camera parameters were not acquired, so the ground truth trajectory was not part of the results.
