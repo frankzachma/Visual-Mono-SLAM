@@ -7,6 +7,3 @@ The relevant results of this example from running it on my personal computer are
 ![Refine and Visualize the Initial Reconstruction](https://github.com/frankzachma/Visual-Mono-SLAM/assets/168232333/eec3bc35-37a0-4c3a-abfa-ab82af74b2ba)
 
 ![Point Cloud Player](https://github.com/frankzachma/Visual-Mono-SLAM/assets/168232333/51d9f0e4-cac9-4e9b-8584-250536f6f5f0)
-
-
-This type of application can be used for the digital reconstruction of a building such that the user can estimate if an object(s) can fit inside of a given space. This can also be done to recreate 3-D geometries for the use inside of 3-D models. One can also track the motion of the camera using monocular visual SLAM and verify the path if the camera parameters are known. This can be done with the example from MATLAB but with a few minor tweaks to the code to adjust for your dataset file types. To fully use the MATLAB example, one must also find the camera parameters to ensure the use of the ground truth part of the code.
