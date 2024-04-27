@@ -9,3 +9,5 @@ The camera parameters, specifically the intrinsic camera parameters, are used to
 
 A comparison to the ground truth data can be made using the generated point cloud map. The ground truth data is generated using recorded datasets with known camera poses and scene geometry. This comparison is important for understanding the accuracy and performance of the SLAM system. This is useful for quantifying pose estimation error, map accuracy, and loop closure detection rate.
 
+## Monocular Visual SLAM Implementation
+This type of application can be used for the digital reconstruction of a building such that the user can estimate if an object(s) can fit inside a given space. This can also be done to recreate 3-D geometries for the use inside of 3-D models. One can also track the motion of the camera using monocular visual SLAM and verify the path if the camera parameters are known. This can be done with the example from MATLAB but with a few minor tweaks to the code to adjust for your dataset file types. To fully use the MATLAB example, one must also find the camera parameters to ensure the use of the ground truth part of the code.
